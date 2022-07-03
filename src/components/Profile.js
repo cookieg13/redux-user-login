@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 function Profile() {
-    const user = useSelector(state => state.user.value)
+    const user = useSelector(state => state.userObj.value)
     const color = useSelector(state=> state.theme.value)
     return (
         <div style={{color: color}}>

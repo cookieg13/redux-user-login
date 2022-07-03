@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //we have named userReducer as userR
 const store = configureStore({
   reducer: {
-    user: userReducer,
+    userObj: userReducer,
     theme: themeReducer,
   },
 });
